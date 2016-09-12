@@ -119,9 +119,9 @@ public abstract class Persistence {
 	private static Connection connection() throws SQLException{
 		String host = "192.168.222.72";
 //		String host = "127.0.0.1:3306";
-		String base = "bdMedocLab";
-		String user = "antoineZ";
-		String passwd = "zouzou";
+		String base = "PiRoMa_bdMedocLab";
+		String user = "piroma";
+		String passwd = "Password1";
 		Connection conn = null;
 		try
 		{
